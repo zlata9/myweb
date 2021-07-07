@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(123, 28, 47);
+    background-color: rgb(70, 64, 65);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,11 +38,41 @@ button:hover {
 div {
     text-align: center;
     padding: 150px;
-    background-image: linear-gradient(to top, rgba(17, 15, 15, 0.707), rgba(12, 11, 11, 0.145)), url(run2.jpg);
+    background-image: linear-gradient(to top, rgba(80, 75, 75, 0.707), rgba(88, 86, 86, 0.145)), url(town.jpg);
     background-size: cover;
 }
 
 p {
     font-size: larger;
     font-weight: bold;
+}
+
+footer {
+    background-color: rgb(70, 64, 65) align-items: center;
+    ;
+}
+
+footer p {
+    margin: 0;
+    padding: 50px;
+}
+
+@media(max-width: 500px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    div {
+        padding: 20px 10px;
+    }
 }
