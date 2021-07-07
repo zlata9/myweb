@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(123, 28, 47);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: Merriweather;
+}
+
+nav a {
+    color: beige;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+button {
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Play';
+    cursor: pointer;
+    transition: 0.5s;
+    ;
+}
+
+button:hover {
+    background-color: rgb(243, 229, 229);
+    font-family: Merriweathe;
+    color: darkgrey;
+    transform: scale(1.1);
+}
+
+div {
+    text-align: center;
+    padding: 150px;
+    background-image: linear-gradient(to top, rgba(17, 15, 15, 0.707), rgba(12, 11, 11, 0.145)), url(run2.jpg);
+    background-size: cover;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold;
+}
